@@ -1,1 +1,2 @@
-Readme.txt
+Repositore for scrypt writing for Thingworx
+
