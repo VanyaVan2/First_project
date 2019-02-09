@@ -1,3 +1,3 @@
 if(me.repeat == true){
-	me.RepeatUpTo = me.Times;
+	me.Thingworx_scrypt_move_by_commands();
 }
