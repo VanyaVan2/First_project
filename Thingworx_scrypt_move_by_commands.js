@@ -32,6 +32,18 @@ switch(me.counter){
 		result = {"X1" : me.PosX, "Y1" : me.PosY, "L1" : me.LightColorCode, "G1" : me.Grip}; 
 		break;
 	//drop object
-	case 10:
+	case 10: me.Grip = 0; me.LightColorCode = 1;
+		switch(me.LastCase){
+			case 1: me.counter = 6; break;
+			case 2: me.counter = 8; break;
+			case 3: me.counter = 5; break;
+			case 4: me.counter = 7; break;
+			case 5: me.counter = 4; break;
+			case 6: me.counter = 2; break;
+			case 7: me.counter = 11; break;
+			case 8: me.counter = 3; break;
+		}
+		result = {"X1" : me.PosX, "Y1" : me.PosY, "L1" : me.LightColorCode, "G1" : me.Grip}; 
+		break;
 	default:
 }
