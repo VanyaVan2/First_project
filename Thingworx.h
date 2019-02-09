@@ -20,5 +20,6 @@ class Thingworx
 		char* _controllerName;
 		char **a;
 		int n;
+		//added smth. to test git
 };
 #endif
