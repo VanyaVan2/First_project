@@ -45,5 +45,5 @@ switch(me.counter){
 		}
 		result = {"X1" : me.PosX, "Y1" : me.PosY, "L1" : me.LightColorCode, "G1" : me.Grip}; 
 		break;
-	default:
+	default: me.repeat = false; break;
 }
