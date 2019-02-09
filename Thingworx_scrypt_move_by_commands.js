@@ -12,11 +12,11 @@ switch(me.counter){
 	//push zone 1
 	case 5: me.PosX = 70; me.PosY = 170; me.LightColorCode = 1; me.counter = 10; me.LastCase = 5; result = {"X1" : me.PosX, "Y1" : me.PosY, "L1" : me.LightColorCode, "G1" : me.Grip}; break;
 	//push zone 2
-	case 6:
+	case 6: me.PosX = 110; me.PosY = 170; me.LightColorCode = 1; me.counter = 10; me.LastCase = 5; result = {"X1" : me.PosX, "Y1" : me.PosY, "L1" : me.LightColorCode, "G1" : me.Grip}; break;
 	//push zone 3
-	case 7:
+	case 7: me.PosX = 78; me.PosY = 275; me.LightColorCode = 1; me.counter = 10; me.LastCase = 5; result = {"X1" : me.PosX, "Y1" : me.PosY, "L1" : me.LightColorCode, "G1" : me.Grip}; break;
 	//push zone 4
-	case 8:
+	case 8: me.PosX = 103; me.PosY = 275; me.LightColorCode = 1; me.counter = 10; me.LastCase = 5; result = {"X1" : me.PosX, "Y1" : me.PosY, "L1" : me.LightColorCode, "G1" : me.Grip}; break;
 	//take object
 	case 9: me.Grip = 1; me.LightColorCode = 1; //if we need to grip smth  
 		switch(me.LastCase){
