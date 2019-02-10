@@ -29,6 +29,7 @@ switch(me.counter){
 			case 7: me.counter = 11; break;
 			case 8: me.counter = 3; break;
 		}
+		me.CurrentCommandNumber = me.LastCommandNumber + 1;
 		result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; 
 		break;
 	//drop object
@@ -43,6 +44,7 @@ switch(me.counter){
 			case 7: me.counter = 10; break;
 			case 8: me.counter = 3; break;
 		}
+		me.CurrentCommandNumber = me.LastCommandNumber + 1;
 		result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber};
 		break;
 	default: me.repeat = false; break;
