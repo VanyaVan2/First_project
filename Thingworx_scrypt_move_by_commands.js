@@ -2,21 +2,21 @@ switch(me.counter){
 	//while first start
 	case 0: me.Grip = 0; me.counter = 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "L1" : me.LightColorCode, "G1" : me.Grip}; break;
 	//sourse zone 1
-	case 1: me.PosX = 160; me.PosY = 160; me.LightColorCode = 1; me.counter = 9; me.LastCase = 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
+	case 1: me.PosX = 160; me.PosY = 160; me.LightColorCode = 1; me.counter = 9; me.LastCase = 1; me.CurrentCommandNumber = me.LastCommandNumber + 1;result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
 	//sourse zone 2
-	case 2: me.PosX = 205; me.PosY = 175; me.LightColorCode = 1; me.counter = 9; me.LastCase = 2; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break; 
+	case 2: me.PosX = 205; me.PosY = 175; me.LightColorCode = 1; me.counter = 9; me.LastCase = 2; me.CurrentCommandNumber = me.LastCommandNumber + 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break; 
 	//sourse zone 3 
-	case 3: me.PosX = 167; me.PosY = 240; me.LightColorCode = 1; me.counter = 9; me.LastCase = 3; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
+	case 3: me.PosX = 167; me.PosY = 240; me.LightColorCode = 1; me.counter = 9; me.LastCase = 3; me.CurrentCommandNumber = me.LastCommandNumber + 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
 	//sourse zone 4 
-	case 4: me.PosX = 198; me.PosY = 250; me.LightColorCode = 1; me.counter = 9; me.LastCase = 4; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
+	case 4: me.PosX = 198; me.PosY = 250; me.LightColorCode = 1; me.counter = 9; me.LastCase = 4; me.CurrentCommandNumber = me.LastCommandNumber + 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
 	//push zone 1
-	case 5: me.PosX = 70; me.PosY = 170; me.LightColorCode = 1; me.counter = 10; me.LastCase = 5; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
+	case 5: me.PosX = 70; me.PosY = 170; me.LightColorCode = 1; me.counter = 10; me.LastCase = 5; me.CurrentCommandNumber = me.LastCommandNumber + 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
 	//push zone 2
-	case 6: me.PosX = 110; me.PosY = 170; me.LightColorCode = 1; me.counter = 10; me.LastCase = 6; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
+	case 6: me.PosX = 110; me.PosY = 170; me.LightColorCode = 1; me.counter = 10; me.LastCase = 6; me.CurrentCommandNumber = me.LastCommandNumber + 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
 	//push zone 3
-	case 7: me.PosX = 78; me.PosY = 275; me.LightColorCode = 1; me.counter = 10; me.LastCase = 7; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
+	case 7: me.PosX = 78; me.PosY = 275; me.LightColorCode = 1; me.counter = 10; me.LastCase = 7; me.CurrentCommandNumber = me.LastCommandNumber + 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
 	//push zone 4
-	case 8: me.PosX = 103; me.PosY = 275; me.LightColorCode = 1; me.counter = 10; me.LastCase = 8; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
+	case 8: me.PosX = 103; me.PosY = 275; me.LightColorCode = 1; me.counter = 10; me.LastCase = 8; me.CurrentCommandNumber = me.LastCommandNumber + 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.L1, "N" : me.CorrentCommandNumber}; break;
 	//take object
 	case 9: me.Grip = 1; me.LightColorCode = 1; //if we need to grip smth  
 		switch(me.LastCase){
