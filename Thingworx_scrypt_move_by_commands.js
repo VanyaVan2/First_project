@@ -1,6 +1,6 @@
 switch(me.counter){
 	//while first start
-	case 0: me.Grip = 0; me.counter = 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "L1" : me.LightColorCode, "G1" : me.Grip}; break;
+	case 0: me.Grip = 0; me.counter = 1; result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.LightColorCode, "N" : me.CurrentCommandNumber}; break;
 	//sourse zone 1
 	case 1: me.PosX = 160; me.PosY = 160; me.LightColorCode = 1; me.counter = 9; me.LastCase = 1; me.CurrentCommandNumber = me.CurrentCommandNumber + 1;result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.LightColorCode, "N" : me.CurrentCommandNumber}; break;
 	//sourse zone 2
