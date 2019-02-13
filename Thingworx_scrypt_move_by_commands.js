@@ -48,6 +48,7 @@ switch(me.counter){
 			case 8: me.counter = 3; break;
 		}
 		//me.CurrentCommandNumber = me.CurrentCommandNumber + 1;
+		me.LightColorCode = 2;
 		result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.LightColorCode, "N" : me.CurrentCommandNumber}; 
 		me.JSON_read.AddRow({N : me.Row, JsonInfo : result, JsonTextInfo : result, SendTime : me.TimeNow}); me.Row ++;
 		break;
@@ -64,6 +65,7 @@ switch(me.counter){
 			case 8: me.counter = 3; break;
 		}
 		//me.CurrentCommandNumber = me.CurrentCommandNumber + 1;
+		me.LightColorCode = 2;
 		result = {"X1" : me.PosX, "Y1" : me.PosY, "T1" : me.RotT, "G1" : me.Grip, "L1" : me.LightColorCode, "N" : me.CurrentCommandNumber};
 		me.JSON_read.AddRow({N : me.Row, JsonInfo : result, JsonTextInfo : result, SendTime : me.TimeNow}); me.Row ++;
 		break;
